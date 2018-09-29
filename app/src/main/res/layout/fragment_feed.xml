@@ -1,0 +1,34 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragment.FragmentFeed"
+    android:background="#ffffff"
+    android:id="@+id/layoutNoticia">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/FABMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        app:layout_anchor="@id/contenedorMainRecycler"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/menu_icon_small"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contenedorMainRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

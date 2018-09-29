@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.FragmentNoticiaDetalle">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollViewTextoNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/relativeLayoutTextoNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imagenNoticiaDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/captura"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/cmdFavoritos"
+                    android:text="Favoritos"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button_shape"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_bookmark_border_white"
+                    android:drawableTint="@color/colorPrimary"
+                    android:padding="5dp"
+                    />
+                <Button
+                    android:id="@+id/cmdVistaWeb"
+                    android:text="vista web"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button_shape"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="5dp"
+                    android:drawableLeft="@drawable/ic_launch_black_24dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textURLSite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:text="PaginaNoticia.com"
+                    android:textColor="@color/colorSecondaryText"
+                    />
+
+                <TextView
+                    android:id="@+id/textHoraPublicado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:gravity="right"
+                    android:textColor="@color/colorSecondaryText"
+                    android:layout_marginRight="7dp"
+                    android:hint="Hace 10hs" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textTituloNoticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:hint="Titulo Noticia"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textCuerpoNoticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="detalle noticia"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="18dp"></TextView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

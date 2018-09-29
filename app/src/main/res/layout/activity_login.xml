@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:tint="@color/colorPrimary"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="@color/colorSecondaryText"
+        android:layout_margin="10dp"
+
+        >
+
+        <EditText
+            android:id="@+id/editTextUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USUARIO"
+            android:gravity="center"
+            android:textColor="@color/colorSecondaryText"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textSize="15dp"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#757575"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/editTextContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"
+            android:textAlignment="center"
+            android:textColor="@color/colorSecondaryText"
+            android:textColorHint="#757575"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/fabLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+  <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp" />
+
+</LinearLayout>

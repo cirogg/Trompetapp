@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:orientation="vertical"
+    tools:context="digitalhouse.com.ar.a0318moacn01c_04.view.fragment.FragmentOpinionDetalle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/image_view_perfil"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_account_circle" />
+
+            <TextView
+                android:id="@+id/text_view_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/image_view_perfil"
+                android:hint="Roberto Carlos"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="17dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_view_cuerpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view_perfil"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:minHeight="200dp"
+            android:layout_weight="1"
+            android:elevation="2dp"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button_share_opinion"
+            android:text="Compartir"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_share_black_24dp"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="digitalhouse.com.ar.a0318moacn01c_04.view.fragment.onboard.image.FragmentOnBoardImagen2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/onboard1"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:lineSpacingExtra="18sp"
+
+        android:text="Un lugar de Noticias donde tus opiniones seran valorados segun los lectores"
+        android:textColor="@color/colorIcons"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:background="#78ef5350"/>
+
+
+</FrameLayout>

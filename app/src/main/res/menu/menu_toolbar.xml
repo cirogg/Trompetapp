@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/buscador"
+        android:icon="@drawable/ic_search_black"
+        android:title="action_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Mi perfil"
+        android:id="@+id/miPerfil"
+        android:icon="@drawable/ic_account_circle"
+        app:showAsAction="never"
+        />
+
+   <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/ic_configuracion_black"
+        android:title="Configuracion"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/ayuda"
+        android:icon="@drawable/messenger_bubble_small_blue"
+        android:title="ayuda"
+        app:showAsAction="never"
+        />
+
+</menu>

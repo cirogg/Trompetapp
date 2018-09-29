@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Compartir"
+        android:id="@+id/compartir"
+        />
+
+    <item
+        android:title="Crear opinion de esto"
+        android:id="@+id/crearOpinion"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:title="Ayuda"
+        android:id="@+id/ayuda"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:title="Ver en App"
+        android:id="@+id/toVistaAPI"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cloud_off_black_24dp"
+        android:visible="true"
+        />
+
+
+</menu>

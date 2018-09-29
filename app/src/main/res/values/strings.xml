@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">0318MOACN01C-04</string>
+    <string name="facebook_app_id">2038187366191536</string>
+    <string name="fb_login_protocol_scheme">fb2038187366191536</string>
+
+
+    // navigation view bottom
+    <string name="Home">Home</string>
+    <string name="Titulares">Titulares</string>
+    <string name="Opiniones">Opiniones</string>
+    <string name="Favoritos">Favoritos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_favoritos">FavoritosActivity</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#f2f2f2"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imageViewPerfil"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textViewNombre"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_account_circle" />
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/imageViewPerfil"
+            android:hint="Roberto Carlos"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewCuerpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageViewPerfil"
+            android:hint="   Ed ut perspiciatis unde omnis iste atus error sit voluptatem accusantium doloremque al
+             quia dolor sit amet, consectetur, adipisci v"
+            android:textAlignment="center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:lines="3"
+            android:textColor="@color/colorSecondaryText" />
+
+        <ImageView
+            android:id="@+id/imageViewBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textViewCuerpo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/ic_more_vert" />
+
+        <TextView
+            android:id="@+id/textViewHora"
+            android:layout_alignEnd="@+id/imageViewBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:hint="Hace 10hs"
+            android:textSize="10dp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

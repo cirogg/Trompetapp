@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="digitalhouse.com.ar.a0318moacn01c_04.view.fragment.onboard.image.FragmentOnBoardImagen3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/onboard1"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:lineSpacingExtra="18sp"
+        android:background="#43ef5350"
+
+        android:text="Tu opinion vale!"
+        android:textColor="@color/colorIcons"
+        android:textSize="55dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/iniciar"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ef5350"
+            android:onClick="Comenzar"
+            android:text="comience"
+            android:textAlignment="center"
+            android:textColor="#f9f9f9"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        />
+    </LinearLayout>
+
+
+
+</FrameLayout>
